@@ -1,4 +1,6 @@
-resolver: lts-16.12
+resolver: ghc-8.10.1
+system-ghc: true
+allow-newer: true
 packages:
 - '.'
 - './benchmark'
